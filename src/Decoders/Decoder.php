@@ -10,7 +10,7 @@ interface Decoder
      *
      * @param string $data
      *
-     * @return object
+     * @return array
      */
     public function handle($data): array;
 }
