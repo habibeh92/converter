@@ -1,0 +1,30 @@
+{
+  "name": "habibeh92/converter",
+  "description": "mapper",
+  "type": "library",
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Habibeh92\\Converter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Habibeh92\\Converter\\Tests\\": "tests"
+    }
+  },
+  "authors": [
+    {
+      "name": "habibeh",
+      "email": "h.shabani.dev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
